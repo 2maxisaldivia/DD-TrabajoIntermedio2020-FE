@@ -2,3 +2,6 @@
 
 
 Comienzo de la produccion del html, donde se analizo la disposicion de los componentes de la pagina, y se intento realizar el html pertinente para un futuro desarrollo del css.
+
+Finalizacion del Html en su totalidad, y comienzo de la produccion de la hoja de estilos
+
