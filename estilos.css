@@ -10,7 +10,15 @@ html, body{
 }
 
 .header-general{
+    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
 
+.header-izquierda{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 2rem;
 }
