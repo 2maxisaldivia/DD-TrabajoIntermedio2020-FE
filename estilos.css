@@ -1,3 +1,5 @@
+/* Reseteo universal*/
+
 *{ 
     box-sizing: border-box;
 }
@@ -7,18 +9,194 @@ html, body{
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+/* Desarrollo del HEADER*/
+
+header{
+    background-color:#24292e;
+    padding: 16px;
+    color: white;
+    align-content: center;
+    align-items: center;
+    padding: 0;
+}
+.barra-busqueda{
+    height: 28px;
+    color: gray;
+    background-color: #24292e;
+    border-color: gray;
+    border-radius: 2px;
+    border-width: 1px;
+    outline: none;
+    margin: 0;
 }
 
 .header-general{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-izquierda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contenido-izquierda{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding: 0.5rem;
+    
+}
+
+.contenido-derecha{
+    display: flex;
+    display: inline;
+    justify-content: space-between;
+    align-content: flex-end;
+    padding: 0.5rem;
+}
+
+.separacion-imagenes{
+    display: flex;
+    align-items: center;
+    padding: 0.5pt;
+    align-self: center;
+}
+
+
+/* Desarrollo de los Menues de la pagina */
+
+/* Desarrollo menu navegacion*/
+
+.menu-navegacion-general{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.menu-navegacion-izquierda{
+    width: 40%;
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.menu-navegacion-derecha{
+    width: 30%;
+    display: inline;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1pt;
+}
+
+h1{
+    margin: 0%;
+    font-size: 20px;
+}
+
+.botones-derecha{
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#e8eae6;
+    margin: 3pt;
+}
+
+
+/*Desarrollo menu de la pagina*/
+
+.menu-pagina{
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+}
+
+.contenedor-items{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    padding-right: 2rem;
+}
+
+.iconos-menu{
+     margin: 0.5rem;
+}
+
+
+/*Desarrollo del Main*/
+
+/* Opciones de navegacion*/
+
+.contenedores-main{
+    display: flex;
+    width: 50%;
+    margin-left: 64px;
+}
+
+.opciones-navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
+}
+
+.contenedor-opciones-izquierda{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem; 
+}
+
+strong{
+    padding: 0.15rem;
+}
+
+.opciones-navegacion-izquierda{
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    padding-right: 0.5rem;
+}
+
+.opciones-navegacion-derecha{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    padding: 0;
+}
+
+/*Contenedores del main*/
+
+/*Proceso del trabajo*/
+
+
+.proceso-del-trabajo{
+    display: flex;
+    flex-direction: column;
+    margin: 3pt;
+}
+
+.contenedor-cambios-trabajo{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.header-izquierda{
-    width: 60%;
+.contenedor-tipo-archivo{
     display: flex;
-    justify-content: flex-start;
-    margin: 2rem;
 }
+
+
+
