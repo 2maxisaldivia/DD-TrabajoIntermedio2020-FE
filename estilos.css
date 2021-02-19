@@ -16,21 +16,21 @@ html, body{
 
 header{
     background-color:#24292e;
-    padding: 16px;
     color: white;
+    font-size: 14px;
+    font-weight: 500;
     align-content: center;
     align-items: center;
-    padding: 0;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-left: 24px;
+
+
 }
+
 .barra-busqueda{
-    height: 28px;
-    color: gray;
-    background-color: #24292e;
-    border-color: gray;
-    border-radius: 2px;
-    border-width: 1px;
-    outline: none;
-    margin: 0;
+
 }
 
 .header-general{
@@ -38,6 +38,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 30px;
 }
 
 
@@ -71,9 +72,17 @@ header{
 }
 
 
+
 /* Desarrollo de los Menues de la pagina */
 
 /* Desarrollo menu navegacion*/
+
+
+h1{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
 
 .menu-navegacion-general{
     display: flex;
@@ -82,6 +91,14 @@ header{
     align-items: center;
     padding-left: 32px;
     padding-right: 32px;
+    padding-top: 16px;
+    height: 46px;
+    background-color: rgb(250, 251, 252);
+}
+
+.nombre-de-cuenta{
+    text-decoration: none;
+    color: #0366d6;
 }
 
 .menu-navegacion-izquierda{
@@ -111,38 +128,61 @@ h1{
     display: flex;
     justify-content: space-between;
     background-color:#e8eae6;
-    margin: 3pt;
+    margin-left: 8px;
 }
 
 
 /*Desarrollo menu de la pagina*/
 
 .menu-pagina{
-    display: inline;
-    display: flex;
-    flex-direction: row;
-    margin-left: 2rem;
+    background-color: rgb(250, 251, 252);
 }
 
 .contenedor-items{
+    list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 0;
-    padding-right: 2rem;
+    flex-direction: row; 
+    padding-right: 32px;
+    padding-left: 32px;
+    margin-bottom: 32px;
+}
+
+.items{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .iconos-menu{
-     margin: 0.5rem;
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
 }
+
 
 
 /*Desarrollo del Main*/
 
 /* Opciones de navegacion*/
 
-.contenedores-main{
+.contenedor-main-general{
     display: flex;
-    width: 50%;
+    flex-direction: row;
+}
+
+.contenedor-main-derecha{
+    width: 184.500px;
+    height: 503px;
+    padding-right: 16px;
+    padding-left: 32px;
+}
+
+.contenedor-main-izquierda{
+    width: 886px;
     margin-left: 64px;
 }
 
@@ -151,12 +191,14 @@ h1{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    height: 32px;
+    margin-bottom: 16px;
 }
 
 .contenedor-opciones-izquierda{
     display: flex;
     flex-direction: row;
-    padding: 0.5rem; 
+    padding: 0; 
 }
 
 strong{
@@ -181,22 +223,172 @@ strong{
 
 /*Proceso del trabajo*/
 
-
 .proceso-del-trabajo{
-    display: flex;
-    flex-direction: column;
-    margin: 3pt;
+    width: 100%;
+    margin-bottom: 16px;
 }
 
-.contenedor-cambios-trabajo{
+.ultimo-cambio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.contenedor-tipo-archivo, .contenedor-tipo-cambio, .contenedor-fecha-cambio{
+    list-style-type: none;
+    margin: 0%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.cambios{
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.actualizaciones-proceso-trabajo{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.contenedor-tipo-archivo{
+.contenedor-archivo-readme{
+    width: 100%;
+    
+}
+
+.nombre-y-edicion-readme{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.nombre-y-detalle-actividad{
+    width: 820px;
+    height: 90px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-top: 16px;
+}
+
+h2{
+    margin: 0%;
+}
+
+/*Comienzo anexo de info accesoria*/
+
+.info-accesoria{
+    width: 274px;
+    height: 466px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.contenedor-about{
+    border-bottom: rgb(230, 230, 230) 1px solid;
+    
+}
+
+.about-derecha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.h2-mb{
+    margin-top: 0%;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(36, 41, 46);
+}
+
+.nd-w{
+    color: rgb(88, 96, 105);
+    font-size: 16px;
+    font-style: italic;
+}
+
+.libro-readme{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.contenedor-releases{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: rgb(230, 230, 230) 1px solid;
+}
+
+.sub-title{
+    margin: 0%;
+    color: rgb(88, 96, 105);
+    font-size: 12px;
+}
+
+.contenedor-packages{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: rgb(230, 230, 230) 1px solid;
+}
+
+.contenedor-lenguages{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 16px;
+}
+
+.ul-lenguages{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 280px;
+    padding: 0%;
+}
+
+.porcentajes{
+    list-style: none;
+    font-size: 12px;
+    margin-right: 8px;
+}
+
+.porcentajes2{
+    list-style: none;
+    font-size: 12px;
 }
 
 
+/*Comienzo de produccion del footer */
 
+footer{
+    font-size: 13px;
+    width: 1248px;
+    height: 114px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.listas-footer{
+    padding: 0px;
+    width: 450px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.gatito-footer{
+    margin-right: 90px;
+    margin-left: 90px;
+}
