@@ -1,0 +1,100 @@
+.boton-generico{
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    margin-left: 8px;
+    color: var(--gris-oscuro);
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: rgb(217 218 220);
+    background-color: var(--gris-claro);
+    cursor: pointer;
+
+}
+
+.botones-derecha{
+    background-color: rgb(250, 251, 252);
+    font-size: 14px;
+    justify-content: flex-end;
+    border-radius: 6px;
+    border: rgb(207, 207, 207) 1px solid;
+    border-width: 1px;
+    outline: none;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--color-btn-text);
+}
+
+.boton-branch{
+    height: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    border-radius: 6px;
+    color: rgb(36, 41, 46);
+    background-color: #fafbfc;
+    border: rgb(207, 207, 207) 1px solid;
+    margin: 0%;
+}
+
+.separacion-boton-main{
+    padding-right: 6px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;   
+}
+
+.img-branch{
+    padding-right: 6px;
+}
+
+.img-triangulo{
+    padding-left: 6px;
+}
+
+.botones-derecha-abajo{
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    margin-left: 8px;
+    height: 32px;
+    padding-left: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 16px;
+    color: rgb(36, 41, 46);
+    background-color: rgb(250, 251, 252);
+    border-radius: 6px;
+    border: rgb(207, 207, 207) 1px solid;
+}
+
+.boton-code{
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    margin-left: 8px;
+    height: 32px;
+    padding-left: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 16px;
+    background-color: rgb(46, 164, 79);
+    border-radius: 6px;
+    color: white;
+    border: rgb(46, 164, 79) 1px solid;
+}
+
+.separacion-boton-code{
+    display: flex;
+    align-items: center;
+}

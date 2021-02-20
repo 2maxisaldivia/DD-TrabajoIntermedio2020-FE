@@ -25,12 +25,26 @@ header{
     padding-top: 16px;
     padding-right: 24px;
     padding-left: 24px;
-
+    font-size: 14px;
+    line-height: 1.5
 
 }
 
 .barra-busqueda{
+    padding-right: 12px;
+    padding-left: 12px;
+    width: 219px;
+    height: 28px;
+    border: solid;
+    border-color: rgb(76, 82, 94);
+    border-width: 1px;
+    border-radius: 5px;
+    background-color:#24292e;
+}
 
+.barra-busqueda:focus{
+    background-color: white;
+    border: 0px;
 }
 
 .header-general{
@@ -67,7 +81,7 @@ header{
 .separacion-imagenes{
     display: flex;
     align-items: center;
-    padding: 0.5pt;
+    padding: 0.5pt0;
     align-self: center;
 }
 
@@ -76,6 +90,11 @@ header{
 /* Desarrollo de los Menues de la pagina */
 
 /* Desarrollo menu navegacion*/
+
+.sector-superior-pagina{
+    background-color: rgb(250, 251, 252);
+    
+}
 
 
 h1{
@@ -93,12 +112,17 @@ h1{
     padding-right: 32px;
     padding-top: 16px;
     height: 46px;
-    background-color: rgb(250, 251, 252);
+    margin-bottom: 16px;
 }
 
 .nombre-de-cuenta{
     text-decoration: none;
     color: #0366d6;
+    font-weight: 400;
+}
+
+strong{
+    font-weight: 600;
 }
 
 .menu-navegacion-izquierda{
@@ -123,28 +147,35 @@ h1{
     font-size: 20px;
 }
 
-.botones-derecha{
-    font-size: 11px;
-    display: flex;
-    justify-content: space-between;
-    background-color:#e8eae6;
-    margin-left: 8px;
-}
+
 
 
 /*Desarrollo menu de la pagina*/
 
 .menu-pagina{
-    background-color: rgb(250, 251, 252);
+    height: 48px;
+    width: 100%;
+    font-size: 14px;
+    justify-content: flex-end;
+    border-radius: 6px;
+    border-bottom: #ececec 1px solid;
+    border-width: 1px;
+    outline: none;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 32px;
+    padding-right: 12px;
+    margin-right: 10px;
+    margin-bottom: 32px;
 }
 
 .contenedor-items{
     list-style-type: none;
     display: flex;
     flex-direction: row; 
-    padding-right: 32px;
-    padding-left: 32px;
-    margin-bottom: 32px;
+    margin: 0;
+    padding: 0;
 }
 
 .items{
@@ -155,6 +186,8 @@ h1{
     padding-left: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
+    line-height: 30px;
+    color: var(--color-underlinenav-text);
 }
 
 .iconos-menu{
@@ -199,6 +232,8 @@ h1{
     display: flex;
     flex-direction: row;
     padding: 0; 
+    width: 307.656px;
+    height: 32px;
 }
 
 strong{
@@ -210,6 +245,7 @@ strong{
     align-content: flex-start;
     align-items: center;
     padding-right: 0.5rem;
+    width: 100%;
 }
 
 .opciones-navegacion-derecha{
@@ -233,29 +269,60 @@ strong{
     flex-direction: row;
     justify-content: space-between;
     padding: 16px;
+    background-color: rgb(241, 248, 255);
+    border: #c2e9f3 1px solid;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
-.contenedor-tipo-archivo, .contenedor-tipo-cambio, .contenedor-fecha-cambio{
-    list-style-type: none;
-    margin: 0%;
+.contenedor-actualizaciones-trabajo{
+    display: flex;
     padding-left: 16px;
     padding-right: 16px;
-}
-
-.cambios{
-    padding-bottom: 8px;
     padding-top: 8px;
+    padding-bottom: 8px;
+    border:#f6f5f5 1px solid;
+    font-size: 14px;
+    color: rgb(88, 96, 105);
+
 }
 
-.actualizaciones-proceso-trabajo{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.contenedor-actualizaciones-trabajo .contenedor-primer-cambio{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
+
+.contenedor-tipo-archivo{
+    width: 237.500px;
+    margin-right: 16px;
+}
+
+.contenedor-tipo-cambio{
+    width: 450.500px;
+    margin-right: 16px;
+}
+
+.contenedor-inicio-de-proyecto4{
+    display: flex;
+    justify-content: flex-end;
+    width: 130px;
+    
+}
+
+.hojita-doblada{
+    margin-right: 16px;
+}
+
+/*Produccion archivo readme*/
 
 .contenedor-archivo-readme{
-    width: 100%;
-    
+    width: 887px;
+    height: 192px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: #f6f5f5 2px solid; 
 }
 
 .nombre-y-edicion-readme{
@@ -263,6 +330,8 @@ strong{
     flex-direction: row;
     justify-content: space-between;
     padding: 16px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .nombre-y-detalle-actividad{
@@ -275,7 +344,13 @@ strong{
 }
 
 h2{
+    font-size: 32px;
+    font-weight: 600;
+    width: 820px;
     margin: 0%;
+    border-bottom: #f6f5f5 2px solid;
+    padding-bottom: 9.600px;
+    margin-bottom: 16px;
 }
 
 /*Comienzo anexo de info accesoria*/
