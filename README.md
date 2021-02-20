@@ -6,3 +6,5 @@ Comienzo de la produccion del html, donde se analizo la disposicion de los compo
 Finalizacion del Html en su totalidad, y comienzo de la produccion de la hoja de estilos
 
 Comienzo del desarrollo del main. Acomodamiento de las opciones de navegacion, botones y demas.
+
+
