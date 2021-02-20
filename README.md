@@ -7,4 +7,5 @@ Finalizacion del Html en su totalidad, y comienzo de la produccion de la hoja de
 
 Comienzo del desarrollo del main. Acomodamiento de las opciones de navegacion, botones y demas.
 
+Finalizacion del posicionamiento en css y comienzo de ordenamiento del codigo .
 
